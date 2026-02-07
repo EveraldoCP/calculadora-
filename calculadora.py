@@ -34,6 +34,18 @@ def escolha_operacao():
         num1 = float(input('Digite o primeiro número: '))
         num2 = float(input('Digite o segundo número: '))
         print(f'O resultado da soma é: {soma(num1,num2)}')
+    elif  opcao_escolhida == 2:    
+        num1 = float(input('Digite o primeiro número: '))
+        num2 = float(input('Digite o segundo número: '))
+        print(f'O resultado da subtração é: {subtracao(num1,num2)}')
+    elif  opcao_escolhida == 3:    
+        num1 = float(input('Digite o primeiro número: '))
+        num2 = float(input('Digite o segundo número: '))
+        print(f'O resultado da multiplicação é: {multiplicacao(num1,num2)}') 
+    elif  opcao_escolhida == 4:    
+        num1 = float(input('Digite o primeiro número: '))
+        num2 = float(input('Digite o segundo número: '))
+        print(f'O resultado da divisão é: {divisao(num1,num2)}')             
     else:
         os.system('clear')    
 
